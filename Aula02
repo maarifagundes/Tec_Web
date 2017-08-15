@@ -1,0 +1,56 @@
+<meta charset="UTF-8">
+
+<p><strong>1) Da lista de tecnologias abaixo, aponte qual é executada no cliente e qual é executada no servidor </strong></p>
+<table border="1">
+	<tr><th>Tecnologia</th><th>Cliente</th><th>Servidor</th></tr>
+	<tr><td>Apache</td><td>&nbsp;</td><td>x</td></tr>
+	<tr><td>JavaScript</td><td>x</td><td>&nbsp;</td></tr>
+	<tr><td>Tomcat</td><td>&nbsp;</td><td>x</td></tr>
+	<tr><td>Java</td><td>&nbsp;</td><td>x</td></tr>
+	<tr><td>HTML</td><td>x</td><td>&nbsp;</td></tr>
+	<tr><td>PHP</td><td>&nbsp;</td><td>x</td></tr>
+	<tr><td>Apache</td><td>&nbsp;</td><td>x</td></tr>
+	<tr><td>MySQL</td><td>&nbsp;</td><td>x</td></tr>
+	<tr><td>XHTML</td><td>x</td><td>&nbsp;</td></tr>
+	<tr><td>MongoDB</td><td>&nbsp;</td><td>x</td></tr>
+	<tr><td>CSS</td><td>x</td><td>&nbsp;</td></tr>
+</table>
+
+<p><strong>2) Aponte as regiões da URL <code>http://www.impacta.com.br/eventos/default.php</code></strong></p>
+
+<p>RESPOSTA: http – informa qual protocolo de comunicação será usado na requisição
+			 <p>impacta.com.br – indica o domínio da rede que hospeda o recurso desejado </p>
+		     <p>eventos – caminho interno até o recurso </p>
+		     <p>default.php – recurso requisitado</p>
+
+<p><strong>3) Quais outros protocolos de comunicação para troca de mensagens via internet existem? Pesquise e cite 3 exemplos, descrevendo sua função e aplicação.</strong></p>
+<ul>
+	<li>
+		<p>
+			PROTOCOLO 1:ICMP - Autoriza a criação de mensagens relativas ao IP, mensagens de erro e pacotes de teste.
+		</p>
+	</li>
+	<li>
+		<p>
+			PROTOCOLO 2:IMAP - Permite a manipulação de caixas postais remotas como se fossem locais, permitindo a organização da forma que melhor convier.
+		</p>
+	</li>
+	<li>
+		<p>
+			PROTOCOLO 3:SMTP - Usado para envios de mensagem em rede funcionando como roteador do correio eletrônico
+		</p>
+	</li>
+</ul>
+
+<p><strong>4) Explore os sites de hospedagem do  (<a href="http://www.uolhost.uol.com.br/" target="_blank">http://www.uolhost.uol.com.br/</a>) e da LOCAWEB (<a href="https://www.locaweb.com.br" target="_blank">https://www.locaweb.com.br</a>), veja os serviços que eles oferecem. Qual desses serviços (em cada site) seria mais adequado para o seu site de desenvolvedor (páginas estáticas) e para a sua aplicação web?</strong></p>
+
+<p>RESPOSTA: Locaweb - Loja Virtual, Hospedagem e Suporte/Cobrança</p>
+		  <p>UolHost - Divulgue o seu negócio, Cloud computing, Crie e hospede o seu site</p>	
+
+<p><strong>5) Pequisem sobre as limitações do HTTP 1.1 e como o HTTP2 vence essa limitação, cite 2 dessas limitações e suas respostas no HTTP2</strong></p>
+
+<p>RESPOSTA: a versão 1.1 é a necessidade de estabelecer uma conexão TCP a cada requisição que é enviada ao servidor de aplicação. Esse ponto representa um ônus muito grande devido ao HTTP ser um protocolo orientado a conexão e exigir um handshake completo a cada conexão estabelecida. Portanto, para continuar a
+ elevar a qualidade e o desempenho das aplicações que fazem uso da internet e do protocolo HTTP uma versão mais moderna e aderente ao uso atual da internet precisava ser especificada, nascendo assim o HTTP 2.0.</p>
+<p> A multiplexação nas conexões é outro benefício importante, pois agora será possível enviar diversas requisições em uma mesma conexão, algo que realmente irá revolucionar as aplicações e elevar consideravelmente o seu desempenho.</p>
+<p>Outra técnica que está ganhando força agora no HTTP 2.0 é a criptografia  oportunista (Opportunistic Encryption), onde no momento de estabelecer uma conexão, cliente e servidor verificam a possibilidade de utilizar a criptografia na troca dos dados. Alguns browsers, como o Firefox versão 37, já estão compatíveis com o HTTP 2.0 e com essa nova funcionalidade.
+</p>
