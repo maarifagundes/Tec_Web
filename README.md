@@ -7,3 +7,5 @@ Erick Feitosa     RA: 1600411
 Gabriel Fonseca   RA: 1600716
 
 Lucas Bonavina    RA: 1600071
+
+João Jeronimo     RA: 1700075
